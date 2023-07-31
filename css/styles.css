@@ -85,6 +85,18 @@
   box-sizing: border-box;
 }
 
+.img-profile {
+  max-width: 10rem;
+  max-height: 10rem;
+  border: 0.5rem solid rgb(255, 255, 255);
+}
+
+.img-profile-md {
+  max-width: 50rem;
+  max-height: 50rem;
+  border: 0.5rem solid rgb(255, 255, 255);
+}
+
 @media (prefers-reduced-motion: no-preference) {
   :root {
     scroll-behavior: smooth;
@@ -10898,11 +10910,7 @@ p.lead {
     margin: auto auto 0;
     padding: 0.5rem;
   }
-  #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
-  }
+
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
@@ -10971,3 +10979,4 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
